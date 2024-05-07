@@ -1,3 +1,8 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
  ul li {
      text-decoration: none;
  }
@@ -65,7 +70,7 @@
      justify-content: end;
  }
 
- .title {
+ .name-title {
      font-size: 50px;
  }
 
@@ -76,6 +81,8 @@
  .about {
      max-width: 1140px;
      margin: 0 auto;
+     margin-top: 30px;
+     margin-bottom: 25px;
  }
  .about-info{
     background:#FFFFFF;
@@ -89,9 +96,10 @@
      font-size: 35px;
  }
 
- .about-descrip {
+ .about-description{
      text-align: center;
      color: cadetblue;
+     margin-bottom: 20px;
  }
 
  .about-info-container {
@@ -129,11 +137,50 @@
  }
  .skill{
     background:#FFFFFF;
-    box-shadow: 0 5px 30px rgb(157, 163, 163);
+    box-shadow: 0 5px 20px rgb(157, 163, 163);
     border-radius: 8PX;
     padding: 30px;
  }
  .skill:hover{
     color: rgb(4, 25, 214);
  }
+ /* resumestyle */
+ .resume-content{
+    display: flex;
+  gap: 25px;
+  
  
+ }
+ .resume-item{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+ }
+ .resume .title{
+    font-weight: 700;
+    font-size: 20px;
+    
+ }
+ .resume .sub-title2{
+ font-weight: 600;
+ font-size: 20px;
+ }
+ .resume .description{
+color: rgb(173, 152, 192);
+ }
+ .hire{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(241, 130, 50);
+    border: 0cap;
+    border-radius: 5px;
+    font-weight: 700px;
+    font-size: 15px;
+    padding: 12px 20px;
+ }
+ .resume-button{
+    margin-top: 20px;
+    text-align: center;
+ }
