@@ -148,6 +148,7 @@ box-sizing: border-box;
  .resume-content{
     display: flex;
   gap: 25px;
+  padding-left: 190px;
   
  
  }
@@ -161,6 +162,7 @@ box-sizing: border-box;
  .resume .title{
     font-weight: 700;
     font-size: 20px;
+    
     
  }
  .resume .sub-title2{
@@ -183,4 +185,15 @@ color: rgb(173, 152, 192);
  .resume-button{
     margin-top: 20px;
     text-align: center;
+ }
+ .contact{
+    display: flex;
+    gap: 111px;
+    background-color: blanchedalmond;
+    margin-top: 22px;
+    padding: 120px 190px;
+ }
+ .contact .section-title2{
+    text-align: left;
+    font-size: larger;
  }
